@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header div.container {
+  margin-left: 15%;
+  width: 70%;
+  height: 100px;
+}
+
+header div.container div.top {
+  margin-top: 25px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header div.container div.top div.logo h1 {
+  font-size: 2rem;
+  color: #C0BAB6;
+}
+
+header div.container div.top div.logo h5 {
+  color: #C0BAB6;
+}
+
+header div.container div.top div.input .in-tx {
+  background-color: #232323;
+  border: 1px solid #919191;
+  padding: 4px;
+  width: 200px;
+}
+
+header div.container div.top div.input .in-bt {
+  background-color: #FF9900;
+  border: none;
+  padding: 5px;
+  width: 70px;
+  color: white;
+}
+
+header div.container nav {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header div.container nav ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header div.container nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header div.container nav ul li a:hover {
+  color: #FF9900;
+}
+
+main {
+  width: 100%;
+}
+
+main div.con-main {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main div.con-main div.con-1 {
+  height: 350px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+}
+
+main div.con-main div.con-1 h1 {
+  margin: 10px;
+  font-size: 50px;
+  color: #989898;
+}
+
+main div.con-main div.con-1 h6 {
+  margin: 10px;
+  color: #989898;
+  font-size: 20px;
+}
+
+main div.con-main div.con-1 a {
+  color: #FF9900;
+  text-decoration: none;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+main div.con-main div.con-2 {
+  width: 70%;
+  height: 350px;
+  background-color: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.con-main div.con-2 h1 {
+  font-size: 50px;
+}
+
+main div.con-main2 {
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main div.con-main2 div.con-3 {
+  height: 220px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+main div.con-main2 div.con-3 a {
+  color: #FF9900;
+  text-decoration: none;
+}
+
+main div.con-main2 div.con-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.con-main2 div.con-4 a {
+  color: #FF9900;
+  text-decoration: none;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+main div.con-main2 div.con-5 {
+  height: 130px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+main div.con-main2 div.con-5 div.sec1 {
+  background-origin: border-box;
+  background-color: #232323;
+  width: 130px;
+  height: 130px;
+  border: 1px solid gray;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.con-main2 div.con-5 div.sec1 h1 {
+  font-size: 25px;
+  color: #C0BAB6;
+}
+
+main div.con-main2 div.con-5 div.sec2 {
+  margin-left: 5px;
+  background-color: #232323;
+  width: 130px;
+  height: 130px;
+  border: 2px double #020101;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.con-main2 div.con-5 div.sec2 h1 {
+  font-size: 25px;
+  color: #C0BAB6;
+}
+
+main div.con-main2 div.con-5 div.sec3 {
+  margin-left: 5px;
+  background-color: #232323;
+  width: 130px;
+  height: 130px;
+  border: 2px double #020101;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main div.con-main2 div.con-5 div.sec3 h1 {
+  font-size: 25px;
+  color: #C0BAB6;
+}
+/*# sourceMappingURL=style.css.map */
